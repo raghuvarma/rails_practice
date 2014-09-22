@@ -3,7 +3,9 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.11'
 gem 'postgres-pr'
 gem 'pg'
-gem 'feedzirra'
+#gem 'feedzirra'
+gem 'feedjira'
+
 gem 'will_paginate', '3.0.2'
 gem 'heroku'
 
