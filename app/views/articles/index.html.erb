@@ -1,0 +1,15 @@
+<div class="page_content">
+  <h2>Wired Top Stories</h2>
+  <% @articles.each do |article| %>
+    <p>
+      <%= link_to article.title ,article, :remote => true%><br/>
+      <%= article.published%>
+    </p>
+    <p>    
+      <div id="content_<%=article.id%>"></div>
+    </p> 
+  <%end%>
+  <div class="pagenation">
+    <%=  will_paginate @articles%>
+  </div>
+</div>

@@ -1,0 +1,41 @@
+// Place all the styles related to the articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+ .pagenation{
+   text-align:center;
+   margin-top:15px;
+}
+
+ .spinner{
+ display:none;
+ position:fixed;
+ top:48%;
+ z-index:9999;
+ left:48%;
+ border:0px;
+}
+
+.page_content{
+ border: 1px solid threedshadow;
+ margin:15px;
+ padding:20px;
+}
+
+#new_comment{
+margin-top:10px;
+}
+
+.gap {
+    float: right;
+    height: 20px;
+    padding-top: 3px;
+   
+}
+
+.comment_pop{
+ border: 1px solid #E4E4E4;
+ margin:10px;
+ padding:10px;
+ width: 560px;
+}

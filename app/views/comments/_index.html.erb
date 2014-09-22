@@ -1,0 +1,6 @@
+Listing <b><%= @comments.size %></b> comments<br/>
+<%@comments.each do |comment|%>
+  <span class="show_content">
+    <%= comment.content%> - at <%= comment.created_at.strftime("%d %b %Y - %H:%m") %></br>
+  </span>
+<%end%>

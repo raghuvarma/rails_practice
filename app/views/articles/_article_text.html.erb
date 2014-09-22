@@ -1,0 +1,4 @@
+<%=strip_tags(@article.content)%></br>
+<%=link_to "Comments", new_article_comment_path(@article) , :remote => true%>
+<div id="comment_<%=@article.id%>" class="comment_pop" style="display:none;"></div>
+
